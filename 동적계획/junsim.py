@@ -9,4 +9,4 @@ for i in range(550):
     sumN += A
 print(arr)
 print(arr1)
-print(round(sumN/550))
+print(arr[arr1.index(max(arr1))])
