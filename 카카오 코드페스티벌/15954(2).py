@@ -44,10 +44,12 @@ for i in range(N-K+1):
         bunsan -= avgarr[count]**2
         DParr.append(bunsan)
         count += 1
+
     # for count in range(1,len(avgarr)):
     #     bunsan = 0
     #     for j in range(i, i+K+count):
     #         bunsan += (dolls[j]-avgarr[count])**2
     #     bunsan /= (K+count)
     #     DParr.append(bunsan)
+print(round(min(DParr), 11))   
 print(round(sqrt(min(DParr)), 11))
