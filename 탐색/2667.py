@@ -8,22 +8,8 @@
 
 import sys
 
-search_arr = []
-
 sys.setrecursionlimit(10**8)
 
-# def search_adj(v1,v2):
-#     arr = []
-#     if v1 == 0 & v2==0:
-#         arr = [[v1+1,v2],[v1,v2+1]]
-#     elif v1 == 0:
-#         arr = [[v1+1,v2],[v1,v2+1],[v1,v2-1]]
-#     elif v2 == 0:
-#         arr = [[v1+1,v2],[v1,v2+1],[v1-1,v2]]
-#     else:
-#         arr = 
-    
-#     return arr
 def DFS(G, v1, v2):
     G[v1][v2] = count
     global danji_count
